@@ -1,7 +1,7 @@
 ## Use to run mysql db docker image, optional if you're not using a local mysqldb
 # docker run --name mysqldb -p 3306:3306 -e MYSQL_ALLOW_EMPTY_PASSWORD=yes -d mysql
 #mine 9 dec 2020
-#docker run --name bipin-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=password -d mysql
+#docker run --name bipin-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=password -v c:/springdb/container-mysqldb-dat-persistence:/var/lib/mysql -d mysql
 
 # connect to mysql and run as root user
 #Create Databases
